@@ -1,0 +1,183 @@
+
+body {
+    background-color: black;
+}
+
+
+th.button_1 [type=button] {
+    height: 60px;
+    width: 60px;
+    position: center;
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    margin: 2.5px;
+    top: 50px;
+    right: -50px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+th.button_1:hover [type=button] {
+    background-color: rgb(184, 184, 184);
+    transition: .5s;
+}
+
+th.button_1:active [type=button] {
+    background: rgb(214, 214, 214);
+    transition: .25s;
+}
+
+td.button_2 [type=button] {
+    height: 60px;
+    width: 60px;
+    color: white;
+    padding: 15px;
+    margin: 2.5px;
+    position: center;
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    top: 50px;
+    outline: none;
+    border: none;
+    right: -50px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+td.button_2:hover [type=button] {
+    background-color: white;
+    transition: .5s;
+    color: orange;
+    transition: .5s;
+}
+
+td.button_2:active [type=button] {
+    background-color: rgb(255, 217, 147);
+    color: white;
+    transition: 0.25s;
+}
+
+
+th.button_2 [type=button] {
+    height: 60px;
+    width: 60px;
+    color: white;
+    padding: 15px;
+    margin: 2.5px;
+    position: center;
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    top: 50px;
+    outline: none;
+    border: none;
+    right: -50px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+th.button_2:hover [type=button] {
+    background-color: white;
+    transition: .5s;
+    color: orange;
+    transition: .5s;
+}
+
+th.button_2:active [type=button] {
+    background-color: rgb(255, 217, 147);
+    color: white;
+    transition: 0.25s;
+}
+
+td.button_3 [type=button]{
+    height: 60px;
+    width: 60px;
+    color: white;
+    padding: 15px;
+    margin: 2.5px;
+    position: center;
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    top: 50px;
+    outline: none;
+    border: none;
+    right: -50px;
+    border-radius: 50%;
+    background-color: rgb(61, 61, 61);
+}
+
+td.button_3:hover [type=button] {
+    background-color: rgb(184, 184, 184);
+    transition: .5s;
+}
+
+td.button_3:active [type=button] {
+    background: rgb(214, 214, 214);
+    transition: .25s;
+}
+
+td.zero [type=button] {
+    text-align: left;
+    width: 125px;
+    color: white;
+    padding-left: 10px;
+    padding: 15px;
+    margin: 2.5px;
+    position: center;
+    position: relative;
+    font-size: 24px;
+    display: inline-block;
+    top: 50px;
+    outline: none;
+    border: none;
+    right: -50px;
+    border-radius: 35px;
+    background-color: rgb(61, 61, 61)
+}
+
+td.dot [type=button] {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin: 2.5px;
+    position: center;
+    position: relative;
+    font-size: 24px;
+    display: inline-block;
+    top: 50px;
+    outline: none;
+    border: none;
+    right: -50px;
+    border-radius: 50%;
+    background-color: rgb(61, 61, 61)
+}
+
+td.zero:hover [type=button], td.dot:hover [type=button] {
+    background-color: rgb(184, 184, 184);
+    transition: .5s;
+}
+
+td.zero:active [type=button], td.dot:active [type=button] {
+    background: rgb(214, 214, 214);
+    transition: .25s;
+}
+
+th.button_1:active [type=button], th.button_2:active [type=button],
+td.button_2:active [type=button], td.button_3:active [type=button],
+td.zero:active [type=button], td.dot:active [type=button] {
+    box-shadow: 0px 0px 10px whitesmoke;
+    transition: 0.1s;
+    text-shadow: 0px 0px 15px grey;
+}
